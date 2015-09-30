@@ -1,0 +1,60 @@
+body{
+    background-color:black;
+    border:solid silver 20px;
+    }
+header{
+    height:15vh;
+}
+
+footer{
+    height:15vh;
+}
+
+#menu{
+    text-align: center;
+    list-style: none;
+    background-color:black;
+    font-weight:bold;
+    font-size: 200%;
+
+}
+a{
+    color:steelblue;
+
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color:orange;
+}
+
+#main-content{
+    color: orange;
+    background-color: black;
+    font-weight:bolder;
+    text-align: center;
+    font-size:200%;
+    padding:20% 0px;
+
+ }
+
+}
+
+#footercontent{
+    color: navy;
+    background-color: black;
+    text-align:center;
+
+}
+
+
+#footercontent li{
+    list-style:none;
+    font-size: 200%;
+    background-color:black;
+    color:white;
+    text-align: center;
+}

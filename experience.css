@@ -1,0 +1,56 @@
+body{
+    background-color:black;
+    border:solid silver 20px;
+}
+header{
+    height:15vh;
+}
+
+footer{
+    height:15vh;
+}
+
+#menu{
+    text-align: center;
+    list-style: none;
+    background-color:black;
+    font-weight:bold;
+    font-size: 200%;
+
+}
+a{
+    color:steelblue;
+
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color:orange;
+}
+
+
+#exp {
+    color: green;
+    display: inline;
+    line-height: 150%;
+    max-height: 5px;
+    font-weight: bold;
+}
+#footercontent{
+    color: navy;
+    background-color: black;
+    text-align:center;
+
+}
+
+
+#footercontent li{
+    list-style:none;
+    font-size: 200%;
+    background-color:black;
+    color:white;
+    text-align: center;
+}
