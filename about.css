@@ -19,6 +19,9 @@ footer{
     font-size: 200%;
 
 }
+#menu li{
+    display:inline;
+}
 a{
     color:steelblue;
 

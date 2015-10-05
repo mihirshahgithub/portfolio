@@ -1,0 +1,115 @@
+body{
+    background-color:black;
+    border:solid silver 20px;
+}
+header{
+    height:15vh;
+}
+
+footer{
+    height:15vh;
+}
+
+#menu{
+    text-align:center;
+    list-style: none;
+    background-color:black;
+    font-weight:bold;
+    font-size: 200%;
+
+}
+
+#menu li{
+    display: inline;
+    position: relative;
+}
+
+#menu li:nth-child(odd){
+    padding-right:50px;
+}
+
+#menu li:nth-child(even){
+    padding-right:50px;
+}
+a{
+    color:steelblue;
+
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color:orange;
+}
+
+p{
+    text-align:center;
+    color:green;
+    text-decoration: underline;
+}
+#styled{
+    margin:auto;
+    text-align:center;
+    color:green;
+    font-size:125%;
+    border: 5px dashed green;
+    border-width: 3vw;
+
+
+}
+
+#footercontent{
+    color: navy;
+    background-color: black;
+    text-align:center;
+
+}
+
+
+#footercontent li{
+    list-style:none;
+    font-size: 200%;
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+
+textarea{
+    display:inline;
+    position: relative;
+    left:0;
+
+}
+
+form input[type='submit']{
+    display:block;
+    position: relative;
+    left: 48%;
+}
+
+
+h5{
+    text-align: center;
+    font-size: 20px;
+    line-height:150%;
+}
+
+#styled form input[type='text']{
+    width: 11%;
+}
+
+#styled form input[type='email']{
+    width: 11%;
+}
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: pink;
+        font-weight: bold;
+    }
+    p {
+        color:black;
+    }
+
+}
