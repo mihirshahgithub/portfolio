@@ -1,5 +1,4 @@
 body{
-    background-color:black;
     border:solid silver 20px;
 }
 header{
@@ -54,10 +53,10 @@ p{
     text-align:center;
     color:green;
     font-size:125%;
-    border: 5px dashed green;
-    border-width: 3vw;
+}
 
-
+#styled p{
+    text-decoration: none;
 }
 
 #footercontent{
