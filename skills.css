@@ -16,8 +16,11 @@ footer{
     background-color:black;
     font-weight:bold;
     font-size: 200%;
-
 }
+#menu li{
+    display:inline;
+    padding-right:5%;
+    }
 a{
     color:steelblue;
 
